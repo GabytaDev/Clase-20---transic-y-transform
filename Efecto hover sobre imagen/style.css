@@ -3,31 +3,46 @@
     width: 480px;
     height: 360px;
     display: flex;
-    position: relative;
+    position: relative; /*para q el texto se ponga arriba de la imagen*/
     overflow: hidden;
 }
 
 .contenedor-imagen{
+    width: 480px;
+    height: 360px;
     display: flex;
-    position: relative;
-    right: 70px;
+       
 }
 .img{
+    position: relative;
+    left: 0;
+    transition-property: right;
     transition: 0.5s;
 }
 .img:hover{
-
     transform: translate(20px,0);
 
 }
+
 .titulo{
     display: flex;
+    flex-direction: column;
     color: #ffffff;
     position: absolute;
     bottom: 30px;
     left: 30px;
     font-size: 24px;
+    transition: 0.5s;
 }
+.estilo-titulo{
+    display: flex;
+}
+.titulo:hover{
+    transform: translateY(-20px);
+    
+}
+
+/*Estilo de letras*/
 .nice{
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
@@ -36,3 +51,11 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
 }
+
+.parrafo{
+    font-family:'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    
+}
+
