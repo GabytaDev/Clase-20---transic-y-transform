@@ -4,25 +4,24 @@
     height: 360px;
     display: flex;
     position: relative; /*para q el texto se ponga arriba de la imagen*/
-    overflow: hidden;
+    
 }
 
 .contenedor-imagen{
-    width: 480px;
+    width: 740px;
     height: 360px;
     display: flex;
-       
+    overflow: hidden;
+      
 }
-.img{
-    position: relative;
-    left: 0;
-    transition-property: right;
+
+img{
     transition: 0.5s;
 }
-.img:hover{
+img:hover{
     transform: translate(20px,0);
-
 }
+
 
 .titulo{
     display: flex;
@@ -41,6 +40,17 @@
     transform: translateY(-20px);
     
 }
+.parrafo{
+    font-family:'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: transparent;
+    transition: 0.5s;
+}
+
+.parrafo:hover{
+    color:#ffffff;
+}
 
 /*Estilo de letras*/
 .nice{
@@ -50,12 +60,5 @@
 .lily{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-}
-
-.parrafo{
-    font-family:'Raleway', sans-serif;
-    font-weight: 100;
-    font-size: 16px;
-    
 }
 
