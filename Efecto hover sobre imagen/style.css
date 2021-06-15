@@ -1,0 +1,38 @@
+
+.contenedor{
+    width: 480px;
+    height: 360px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.contenedor-imagen{
+    display: flex;
+    position: relative;
+    right: 70px;
+}
+.img{
+    transition: 0.5s;
+}
+.img:hover{
+
+    transform: translate(20px,0);
+
+}
+.titulo{
+    display: flex;
+    color: #ffffff;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    font-size: 24px;
+}
+.nice{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+.lily{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
