@@ -211,6 +211,27 @@ input {
   - Al hacer hover sobre el contenedor, rotar cada cuadrado a la derecha sobre el eje Z, con una duración de 0.3 segundos. El primero debe rotar 90 grados, el 2do 180 grados, el 3ro 270 grados y el 4t0 360 grados.
 */
 
+.ejercicio-dos{
+  transition: 0.3s;
+}
+.ejercicio-dos:hover .cuadrado-uno{
+  transform: rotate(90deg);
+}
+
+.ejercicio-dos:hover .cuadrado-dos{
+  transform: rotate(180deg);
+}
+.ejercicio-dos:hover .cuadrado-tres{
+  transform: rotate(270deg);
+}
+
+.ejercicio-dos:hover .cuadrado-cuatro{
+  transform: rotate(360deg);
+}
+
+.cuadrado-uno, .cuadrado-dos, .cuadrado-tres, .cuadrado-cuatro{
+  transition: 0.3s;
+}
 /* 
   Ejercicio 3
   ----------------------------------
