@@ -238,30 +238,142 @@ input {
   - Al hacer hover sobre el contenedor, rotar cada cuadrado 90 grados a la derecha sobre el eje Z, con una duración de 0.3s, teniendo cada uno un delay de 0.2 segundos con respecto al de la izquierda (es decir, 0, 0.2, 0.4 y 0.6). 
 */
 
+.ejercicio-tres{
+  transition: 0.3s;
+
+}
+.ejercicio-tres:hover .box1{
+  transform: rotate(90deg);
+}
+
+.box1{
+  transition: 0.3s;
+  transition-delay: 0.1s;
+}
+
+
+.box2 {
+  transition-duration:0.3s;
+  transition-delay: 0.2s;
+}
+
+.ejercicio-tres:hover .box2{
+  transform: rotate(90deg);
+}
+.box3{
+  transition: 0.3s;
+  transition-delay: 0.4s;
+}
+.ejercicio-tres:hover .box3{
+  transform: rotate(90deg);
+}
+.box4{
+  transition: 0.3s;
+  transition-delay: 0.6s;
+}
+.ejercicio-tres:hover .box4{
+  transform: rotate(90deg);
+}
+
 /* 
   Ejercicio 4
   ----------------------------------
   - Al hacer hover sobre el contenedor, rotar cada cuadrado 180 grados a la derecha sobre el eje Y, con una duración de 0.3s, teniendo cada uno un delay de 0.2 segundos con respecto al de la izquierda (es decir, 0, 0.2, 0.4 y 0.6) 
 */
+.ejercicio-cuatro{
+  transition: 0.3s;
+}
 
+.ejercicio-cuatro:hover .box-1{
+  transform: rotateY(180deg);
+  
+}
+.box-1{
+  transition: 0.3s;
+  transition-delay: 0.1s;
+}
+.ejercicio-cuatro:hover .box-2{
+  transform: rotateY(180deg);
+  
+}
+.box-2{
+  transition: 0.3s;
+  transition-delay: 0.2s;
+}
+.ejercicio-cuatro:hover .box-3{
+  transform: rotateY(180deg);
+  
+}
+.box-3{
+  transition: 0.3s;
+  transition-delay: 0.4s;
+}
+.box-4{
+  transition: 0.3s;
+  transition-delay: 0.6s;
+}
+.ejercicio-cuatro:hover .box-4{
+  transform: rotateY(180deg);
+  
+}
 /* 
   Ejercicio 5
   ----------------------------------
   - Al hacer hover sobre el contenedor, convertir a cada cuadrado en un círculo con border-radius, teniendo el 1ro una duración de 0.3 segundos, el 2do de 0.6 segundos, el 3ro de 0.9 segundos y el 4to de 1.2 segundos.  
 */
-
+.ejercicio-cinco:hover .box-one{
+  border-radius: 50%;
+}
+.ejercicio-cinco:hover .box-two{
+  border-radius: 50%;
+}
+.ejercicio-cinco:hover .box-three{
+  border-radius: 50%;
+}
+.ejercicio-cinco:hover .box-four{
+  border-radius: 50%;
+}
+.box-one{
+  transition: 0.3s;
+}
+.box-two{
+  transition: 0.6s;
+}
+.box-three{
+  transition: 0.9s;
+}
+.box-four{
+  transition: 1.2s;
+}
 /* 
   Ejercicio 6
   ----------------------------------
   - Al hacer hover sobre el botón, cambiar el color de fondo por #d1c4e9 y al presionarlo, por #b39ddb. Darle una transición con 0.3 segundos de duración.  
 */
-
+.boton-1{
+  transition: 0.3s;
+}
+.boton-1:hover{
+  background-color: #d1c4e9;
+}
+.boton-1:focus{
+  background-color: #b39ddb;
+}
 /* 
   Ejercicio 7
   ----------------------------------
   - Al hacer hover sobre el botón, cambiar el color de fondo por #ec407a y el color de texto por #000000, y al presionarlo, cambiar el color de fondo por #e91e63. Darle una transición con 0.3 segundos de duración.  
 */
-
+.boton-2{
+  transition: 0.3s;
+}
+.boton-2:hover{
+  background-color: #ec407a;
+  color: #000000;
+}
+.boton-2:focus{
+  background-color: #e91e63;
+}
 /* 
   Ejercicio 8
   ----------------------------------
